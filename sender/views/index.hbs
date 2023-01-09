@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Client</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<div class='Payment'>
+	<h2>Client</h2>
+
+	<form action="/send", method="POST">
+	    <label for="card-no">Enter Card-no</label><br>
+		<input type="number" id="cno" name="cardno" placeholder="Card no"><br>
+		<label for="Expiry-date">Enter Expiry-date</label><br>
+		<input type="date" id="eno" name="expierydate" placeholder="Expiery Date"><br>
+		<label for="cvv">Enter cvv</label><br>
+		<input type="password" id="cvv" name="cvv" placeholder="000"><br>
+		<input type="submit" value="Send"><br>
+			
+	</form>
+	</div>
+	{{#if id}}
+		<p>Socket connected with id: {{id}}</p>
+	{{/if}}
+</body>
+</html>
