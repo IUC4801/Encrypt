@@ -38,14 +38,14 @@ Nodejs should be installed in the device. Along with Nodejs, any code editor sho
    
 2. After cloning this repository, migrate to ```Encrypt-clone``` folder. Run the following commands to run your app:
 ```bash
-  cd Client
+  cd sender
   npm i (to install all the dependencies)
   npm start
   Open [http://localhost:3000](http://localhost:3000) to open the client side.
 ```
 
 ```bash
-  cd Server
+  cd receiver
   npm i (to install all the dependencies)
   npm start
   Open [http://localhost:5000](http://localhost:5000) to open the server side.
