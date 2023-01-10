@@ -66,8 +66,6 @@ Nodejs should be installed in the device. Along with Nodejs, any code editor sho
 
 ## Demo
 
-<p align="center">
-  <img 
-    src="https://user-images.githubusercontent.com/61285140/211607696-49c6d6e4-58fc-490f-8558-abcac34cff93.gif"
-  >
-</p>
+![Github demo (1)](https://user-images.githubusercontent.com/61285140/211607696-49c6d6e4-58fc-490f-8558-abcac34cff93.gif)
+
+  
