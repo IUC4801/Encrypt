@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Client</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<div class='Payment'>
+	<h2>WELCOME</h2>
+	<form action="/send", method="POST">
+	
+		<label class="cardno">Enter your Card Number:</label>
+		<input type="text" id="cardno" name="cardno" data-mask="0000 0000 0000 0000" placeholder="Enter 16 digit card no."required/><br>
+		<label class="expirydate">Enter the Expiry Date:</label>
+		<input type="date" id="expirydate" name="expirydate" placeholder="Enter expiery date"required/><br>
+		<label class="cvv">Enter CVV:</label>
+		<input type="password" id="cvv" name="cvv" data-mask="000" placeholder="Enter 3 digit CVV"required/><br>
+		<input type="submit" id="sub_btn" value="Send">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	</form>
+	</div>
+	{{#if id}}
+		<p>Socket connected with id: {{id}}</p>
+	{{/if}}
+</body>
+</html>
